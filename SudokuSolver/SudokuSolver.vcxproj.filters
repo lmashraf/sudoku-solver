@@ -1,0 +1,71 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="Source Files">
+      <UniqueIdentifier>{4FC737F1-C7A5-4376-A066-2A32D752A2FF}</UniqueIdentifier>
+      <Extensions>cpp;c;cc;cxx;def;odl;idl;hpj;bat;asm;asmx</Extensions>
+    </Filter>
+    <Filter Include="Header Files">
+      <UniqueIdentifier>{93995380-89BD-4b04-88EB-625FBE52EBFB}</UniqueIdentifier>
+      <Extensions>h;hpp;hxx;hm;inl;inc;xsd</Extensions>
+    </Filter>
+    <Filter Include="PART I">
+      <UniqueIdentifier>{e1c12d27-e4bf-4800-abf0-5b67ac5b828a}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="PART I\Region">
+      <UniqueIdentifier>{a139266f-5b3b-45a6-9f57-4f94279676ee}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="PART I\Grid">
+      <UniqueIdentifier>{08d0edca-ea7c-49f8-8b6a-8b7afaaee66d}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="PART I\Cell">
+      <UniqueIdentifier>{7da46849-5cb3-44ed-9f90-b554fe36f314}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="stdafx.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="targetver.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="SudokuSolver.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="Cell.h">
+      <Filter>PART I\Cell</Filter>
+    </ClInclude>
+    <ClInclude Include="Region.h">
+      <Filter>PART I\Region</Filter>
+    </ClInclude>
+    <ClInclude Include="Grid.h">
+      <Filter>PART I\Grid</Filter>
+    </ClInclude>
+    <ClInclude Include="TripleHolder.h">
+      <Filter>PART I</Filter>
+    </ClInclude>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="stdafx.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="SudokuSolver.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="dllmain.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="Cell.cpp">
+      <Filter>PART I\Cell</Filter>
+    </ClCompile>
+    <ClCompile Include="Region.cpp">
+      <Filter>PART I\Region</Filter>
+    </ClCompile>
+    <ClCompile Include="Grid.cpp">
+      <Filter>PART I\Grid</Filter>
+    </ClCompile>
+    <ClCompile Include="TripleHolder.cpp">
+      <Filter>PART I</Filter>
+    </ClCompile>
+  </ItemGroup>
+</Project>
