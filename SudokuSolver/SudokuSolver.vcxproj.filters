@@ -21,6 +21,9 @@
     <Filter Include="PART I\Cell">
       <UniqueIdentifier>{7da46849-5cb3-44ed-9f90-b554fe36f314}</UniqueIdentifier>
     </Filter>
+    <Filter Include="PART I\Holders">
+      <UniqueIdentifier>{c05bb49e-a26f-4dc3-8aa7-180ce823254a}</UniqueIdentifier>
+    </Filter>
   </ItemGroup>
   <ItemGroup>
     <ClInclude Include="stdafx.h">
@@ -42,7 +45,13 @@
       <Filter>PART I\Grid</Filter>
     </ClInclude>
     <ClInclude Include="TripleHolder.h">
-      <Filter>PART I</Filter>
+      <Filter>PART I\Holders</Filter>
+    </ClInclude>
+    <ClInclude Include="RowHolder.h">
+      <Filter>PART I\Holders</Filter>
+    </ClInclude>
+    <ClInclude Include="ColumnHolder.h">
+      <Filter>PART I\Holders</Filter>
     </ClInclude>
   </ItemGroup>
   <ItemGroup>
@@ -65,7 +74,13 @@
       <Filter>PART I\Grid</Filter>
     </ClCompile>
     <ClCompile Include="TripleHolder.cpp">
-      <Filter>PART I</Filter>
+      <Filter>PART I\Holders</Filter>
+    </ClCompile>
+    <ClCompile Include="RowHolder.cpp">
+      <Filter>PART I\Holders</Filter>
+    </ClCompile>
+    <ClCompile Include="ColumnHolder.cpp">
+      <Filter>PART I\Holders</Filter>
     </ClCompile>
   </ItemGroup>
 </Project>

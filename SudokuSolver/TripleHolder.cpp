@@ -2,11 +2,17 @@
 #include "TripleHolder.h"
 
 
-TripleHolder::TripleHolder(void)
+Cell& TripleHolder::getFirstCell(void)
 {
+	return m_first_cell;
 }
 
-
-TripleHolder::~TripleHolder(void)
+Cell& TripleHolder::getSecondCell(void)
 {
+	return m_second_cell;
+}
+
+Cell& TripleHolder::getThirdCell(void)
+{
+	return m_third_cell;
 }
