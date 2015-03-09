@@ -3,22 +3,18 @@
 
 
 Grid::Grid(void)
-{
-}
+{}
 
 
 Grid::~Grid(void)
 {
 }
 
-Grid::Grid(Region regions[3][3])
+Grid::Grid(Region regions[9])
 {
-	for(int c = 0; c < 3; c++)
+	for(int c = 0; c < 9; c++)
 	{
-		for(int r = 0; r < 3; r++)
-		{
-			this->regions[c][r] = regions[c][r];
-		}
+			this->regions[c] = regions[c];
 	}
 	
 }
@@ -27,14 +23,55 @@ bool Grid::IsFull()
 {
 	bool IsFull = true;
 
-	for(int c = 0; c < 3; c++)
+	for(int c = 0; c < 9; c++)
 	{
-		for(int r = 0; r < 3; r++)
-		{
-			if ( !this->regions[c][r].IsFull() )
-				IsFull = false;
-		}
+		if ( !this->regions[c].IsFull() )
+			IsFull = false;
 	}
 
 	return IsFull;
+}
+
+Region& Grid::getN()
+{
+	return this->regions[CARDINAUX::N];
+}
+
+Region& Grid::getNE()
+{
+	return this->regions[CARDINAUX::NE];
+}
+Region& Grid::getNO()
+{
+	return this->regions[CARDINAUX::NO];
+}
+
+Region& Grid::getS()
+{
+	return this->regions[CARDINAUX::S];
+}
+
+Region& Grid::getSE()
+{
+	return this->regions[CARDINAUX::SE];
+}
+
+Region& Grid::getSO()
+{
+	return this->regions[CARDINAUX::SO];
+}
+
+Region& Grid::getE()
+{
+	return this->regions[CARDINAUX::E];
+}
+
+Region& Grid::getO()
+{
+	return this->regions[CARDINAUX::O];
+}
+
+Region& Grid::getC()
+{
+	return this->regions[CARDINAUX::C];
 }

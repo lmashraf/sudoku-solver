@@ -7,12 +7,26 @@
 class SUDOKUSOLVER_API Grid
 {
 	public:
-		Region regions[3][3];
+		Region regions[9];
 
 	public:
-		Grid(Region[3][3]);
+		Grid(Region[9]);
 		Grid(void);
 		~Grid(void);
+
+	public:
+		Region& getN();
+		Region& getNE();
+		Region& getNO();
+
+		Region& getS();
+		Region& getSE();
+		Region& getSO();
+
+		Region& getE();
+		Region& getO();
+
+		Region& getC();	
 
 	public:
 		bool IsFull();

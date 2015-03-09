@@ -53,6 +53,9 @@
     <ClInclude Include="ColumnHolder.h">
       <Filter>PART I\Holders</Filter>
     </ClInclude>
+    <ClInclude Include="RegionHolder.h">
+      <Filter>PART I\Holders</Filter>
+    </ClInclude>
   </ItemGroup>
   <ItemGroup>
     <ClCompile Include="stdafx.cpp">
@@ -80,6 +83,9 @@
       <Filter>PART I\Holders</Filter>
     </ClCompile>
     <ClCompile Include="ColumnHolder.cpp">
+      <Filter>PART I\Holders</Filter>
+    </ClCompile>
+    <ClCompile Include="RegionHolder.cpp">
       <Filter>PART I\Holders</Filter>
     </ClCompile>
   </ItemGroup>

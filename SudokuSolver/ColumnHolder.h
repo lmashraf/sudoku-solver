@@ -7,8 +7,13 @@
 class SUDOKUSOLVER_API ColumnHolder : public TripleHolder
 {
 	public:
-		ColumnHolder(void);
+		ColumnHolder(Cell& left, Cell& center, Cell& right) : TripleHolder(left, center, right) {};
 		~ColumnHolder(void);
+
+	public:
+		Cell& G(void);
+		Cell& C(void);
+		Cell& D(void);
 };
 
 #endif

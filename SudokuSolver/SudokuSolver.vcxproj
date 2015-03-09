@@ -81,6 +81,7 @@
     <ClInclude Include="ColumnHolder.h" />
     <ClInclude Include="Grid.h" />
     <ClInclude Include="Region.h" />
+    <ClInclude Include="RegionHolder.h" />
     <ClInclude Include="RowHolder.h" />
     <ClInclude Include="stdafx.h" />
     <ClInclude Include="SudokuSolver.h" />
@@ -100,6 +101,7 @@
     </ClCompile>
     <ClCompile Include="Grid.cpp" />
     <ClCompile Include="Region.cpp" />
+    <ClCompile Include="RegionHolder.cpp" />
     <ClCompile Include="RowHolder.cpp" />
     <ClCompile Include="stdafx.cpp">
       <PrecompiledHeader Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">Create</PrecompiledHeader>
