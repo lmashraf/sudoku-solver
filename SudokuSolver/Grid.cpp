@@ -32,9 +32,9 @@ bool Grid::IsFull()
 	return IsFull;
 }
 
-bool Grid::Accept(IVisitor visitor) const
+bool Grid::Accept() const
 {
-	visitor.Visit(this);
+	return true;
 }
 
 Region& Grid::getN()

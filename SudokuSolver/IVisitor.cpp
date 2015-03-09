@@ -12,4 +12,6 @@ IVisitor::~IVisitor(void)
 }
 
 bool IVisitor::Visit(Grid & ioGrid) const
-{}
+{
+	return ioGrid.Accept();
+}

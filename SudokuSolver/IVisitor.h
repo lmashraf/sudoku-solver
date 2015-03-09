@@ -2,7 +2,10 @@
 #define _IVISITOR_H_
 
 #include "SudokuSolver.h"
+
 #include "Grid.h"
+
+class Grid;
 
 class SUDOKUSOLVER_API IVisitor
 {
@@ -10,7 +13,7 @@ class SUDOKUSOLVER_API IVisitor
 		IVisitor(void);
 		~IVisitor(void);
 
-		virtual bool Visit(Grid & ioGrid) const;
+		bool Visit(Grid & ioGrid) const;
 };
 
 #endif

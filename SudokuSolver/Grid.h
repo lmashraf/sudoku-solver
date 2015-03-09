@@ -31,7 +31,7 @@ class SUDOKUSOLVER_API Grid
 
 	public:
 		bool IsFull();
-		bool Accept(IVisitor visitor) const;
+		bool Accept() const;
 };
 
 #endif

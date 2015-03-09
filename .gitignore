@@ -41,3 +41,11 @@ $RECYCLE.BIN/
 Network Trash Folder
 Temporary Items
 .apdisk
+ipch/sudokusolver-13ca71ee/sudokusolver-d2ee2ec2.ipch
+SudokuSolver.sdf
+ipch/testsudoku-fc8d0458/testsudoku-ad501887.ipch
+SudokuSolver.opensdf
+TestSudoku/Debug/SudokuSolver.lib
+*.log
+SudokuSolver/Debug/SudokuSolver.lib
+SudokuSolver.v11.suo
