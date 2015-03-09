@@ -9,20 +9,23 @@
       <UniqueIdentifier>{93995380-89BD-4b04-88EB-625FBE52EBFB}</UniqueIdentifier>
       <Extensions>h;hpp;hxx;hm;inl;inc;xsd</Extensions>
     </Filter>
-    <Filter Include="PART I">
-      <UniqueIdentifier>{e1c12d27-e4bf-4800-abf0-5b67ac5b828a}</UniqueIdentifier>
+    <Filter Include="SAuxiliaries">
+      <UniqueIdentifier>{b8fa28de-eb4c-4a40-801d-463567a1d248}</UniqueIdentifier>
     </Filter>
-    <Filter Include="PART I\Region">
-      <UniqueIdentifier>{a139266f-5b3b-45a6-9f57-4f94279676ee}</UniqueIdentifier>
-    </Filter>
-    <Filter Include="PART I\Grid">
-      <UniqueIdentifier>{08d0edca-ea7c-49f8-8b6a-8b7afaaee66d}</UniqueIdentifier>
-    </Filter>
-    <Filter Include="PART I\Cell">
+    <Filter Include="SCell">
       <UniqueIdentifier>{7da46849-5cb3-44ed-9f90-b554fe36f314}</UniqueIdentifier>
     </Filter>
-    <Filter Include="PART I\Holders">
+    <Filter Include="SGrid">
+      <UniqueIdentifier>{08d0edca-ea7c-49f8-8b6a-8b7afaaee66d}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="SHolders">
       <UniqueIdentifier>{c05bb49e-a26f-4dc3-8aa7-180ce823254a}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="SRegion">
+      <UniqueIdentifier>{a139266f-5b3b-45a6-9f57-4f94279676ee}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="SVisitors">
+      <UniqueIdentifier>{a92fa1fc-a7d2-485b-9259-cf9714fa9dbf}</UniqueIdentifier>
     </Filter>
   </ItemGroup>
   <ItemGroup>
@@ -36,25 +39,31 @@
       <Filter>Header Files</Filter>
     </ClInclude>
     <ClInclude Include="Cell.h">
-      <Filter>PART I\Cell</Filter>
+      <Filter>SCell</Filter>
     </ClInclude>
     <ClInclude Include="Region.h">
-      <Filter>PART I\Region</Filter>
+      <Filter>SRegion</Filter>
     </ClInclude>
     <ClInclude Include="Grid.h">
-      <Filter>PART I\Grid</Filter>
+      <Filter>SGrid</Filter>
     </ClInclude>
     <ClInclude Include="TripleHolder.h">
-      <Filter>PART I\Holders</Filter>
+      <Filter>SHolders</Filter>
     </ClInclude>
     <ClInclude Include="RowHolder.h">
-      <Filter>PART I\Holders</Filter>
+      <Filter>SHolders</Filter>
     </ClInclude>
     <ClInclude Include="ColumnHolder.h">
-      <Filter>PART I\Holders</Filter>
+      <Filter>SHolders</Filter>
     </ClInclude>
     <ClInclude Include="RegionHolder.h">
-      <Filter>PART I\Holders</Filter>
+      <Filter>SHolders</Filter>
+    </ClInclude>
+    <ClInclude Include="LastCellFinder.h">
+      <Filter>SAuxiliaries</Filter>
+    </ClInclude>
+    <ClInclude Include="IVisitor.h">
+      <Filter>SVisitors</Filter>
     </ClInclude>
   </ItemGroup>
   <ItemGroup>
@@ -68,25 +77,31 @@
       <Filter>Source Files</Filter>
     </ClCompile>
     <ClCompile Include="Cell.cpp">
-      <Filter>PART I\Cell</Filter>
+      <Filter>SCell</Filter>
     </ClCompile>
     <ClCompile Include="Region.cpp">
-      <Filter>PART I\Region</Filter>
+      <Filter>SRegion</Filter>
     </ClCompile>
     <ClCompile Include="Grid.cpp">
-      <Filter>PART I\Grid</Filter>
+      <Filter>SGrid</Filter>
     </ClCompile>
     <ClCompile Include="TripleHolder.cpp">
-      <Filter>PART I\Holders</Filter>
+      <Filter>SHolders</Filter>
     </ClCompile>
     <ClCompile Include="RowHolder.cpp">
-      <Filter>PART I\Holders</Filter>
+      <Filter>SHolders</Filter>
     </ClCompile>
     <ClCompile Include="ColumnHolder.cpp">
-      <Filter>PART I\Holders</Filter>
+      <Filter>SHolders</Filter>
     </ClCompile>
     <ClCompile Include="RegionHolder.cpp">
-      <Filter>PART I\Holders</Filter>
+      <Filter>SHolders</Filter>
+    </ClCompile>
+    <ClCompile Include="LastCellFinder.cpp">
+      <Filter>SAuxiliaries</Filter>
+    </ClCompile>
+    <ClCompile Include="IVisitor.cpp">
+      <Filter>SVisitors</Filter>
     </ClCompile>
   </ItemGroup>
 </Project>

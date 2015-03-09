@@ -3,6 +3,7 @@
 
 #include "SudokuSolver.h"
 #include "Region.h"
+#include "IVisitor.h"
 
 class SUDOKUSOLVER_API Grid
 {
@@ -30,6 +31,7 @@ class SUDOKUSOLVER_API Grid
 
 	public:
 		bool IsFull();
+		bool Accept(IVisitor visitor) const;
 };
 
 #endif

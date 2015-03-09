@@ -32,6 +32,11 @@ bool Grid::IsFull()
 	return IsFull;
 }
 
+bool Grid::Accept(IVisitor visitor) const
+{
+	visitor.Visit(this);
+}
+
 Region& Grid::getN()
 {
 	return this->regions[CARDINAUX::N];
